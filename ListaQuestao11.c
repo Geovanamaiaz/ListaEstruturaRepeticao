@@ -13,7 +13,7 @@ int main (){
     scanf("%d",&N);
 
     //Condicional
-    while(i <= N){ //Enquanto i for maior ou igual a n continua o loop
+    while(i <= N){ //Enquanto i for menor ou igual a n continua o loop
         fatorial = fatorial * i; //fatorial multiplica pelo valor atual do contador
         i++; //Aumenta +1 no contador
     }
